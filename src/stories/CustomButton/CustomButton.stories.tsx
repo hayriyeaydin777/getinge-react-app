@@ -15,7 +15,6 @@ export const Default: any = Template.bind({});
 Default.args = {
   size: 'md',
   variantColor: 'green',
-  backgroundColor: 'red',
 };
 
 

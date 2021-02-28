@@ -3,11 +3,11 @@ import { Button } from '@chakra-ui/react';
 
 interface ButtonProps {
     size: string | any;
-    variantColor: string;
+    colorScheme: string;
 }
 
-const CustomButton: FC<ButtonProps> = ({ size, variantColor }) => (
-  <Button variantColor={variantColor} size={size}>
+const CustomButton: FC<ButtonProps> = ({ size, colorScheme }) => (
+  <Button colorScheme={colorScheme} size={size}>
     Button
   </Button>
 );

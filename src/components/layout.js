@@ -20,18 +20,19 @@ const Layout = ({ children }) => {
     query SiteTitleQuery {
       site {
         siteMetadata {
-          title
+          image
         }
       }
     }
   `)
 
+  console.log(data.site.siteMetadata?.image )
   return (
     <>
-    <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-    <Box as="div" m="0 auto" maxWidth="960px" p="0 1.0875rem 1.45rem">
+    <Header image={data.site.siteMetadata.image || `Logo`} />
+    <Box as="div" m="0 auto" maxWidth="1440px" p="0 1.0875rem 1.45rem">
       <Box as="main">{children}</Box>
-      <Box as="footer" marginTop="2rem" fontSize="xl">
+      <Box as="footer" marginTop="2rem" fontSize="sm">
         © {new Date().getFullYear()}, Built with
         {` `}
         <Link

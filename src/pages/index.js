@@ -1,42 +1,22 @@
-import { Box, Heading, Link, Text } from '@chakra-ui/react'
-import { Link as GatsbyLink } from 'gatsby'
 import React from 'react'
-
-import Image from "../components/image"
+import { Box, Heading, Link, Text, Center, VStack, Image } from '@chakra-ui/react'
+import { Link as GatsbyLink } from 'gatsby'
+import HeroImage from "../components/hero-image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+
+const IndexPage = ({data}) => (
   <>
   <SEO title="Home" />
-  <Heading>Hi people</Heading>
+  <Heading>With passion for the future</Heading>
   <Text fontSize="xl" my={5}>
-    Welcome to your new Gatsby site.
+    We focus on contamination prevention and upstream bioprocessing to provide tailored, efficient and compliant solutions
   </Text>
-  <Text fontSize="xl" my={5}>
-    Now go build something great.
-  </Text>
-  <Box as="div" maxWidth="300px" marginBottom="1.45rem">
-    <Image />
+  <Box as="div" v="1440px" marginBottom="1.45rem">
+    <HeroImage 
+    />
   </Box>
-  <Link
-    as={GatsbyLink}
-    textDecor="underline"
-    color="purple.500"
-    fontSize="xl"
-    to="/page-2/"
-  >
-    Go to page 2
-  </Link>
   <br />
-  <Link
-    as={GatsbyLink}
-    textDecor="underline"
-    color="purple.500"
-    fontSize="xl"
-    to="/using-typescript/"
-  >
-    Go to "Using TypeScript"
-  </Link>
 </>
 )
 

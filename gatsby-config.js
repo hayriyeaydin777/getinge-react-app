@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Getinge React App`,
+    title: `Getinge`,
     description: `Gatsby project with Storybook and Chakra-ui.`,
+    image: `/images/logo.png`,
     author: `Hayriye Aydin `,
   },
   plugins: [
@@ -26,6 +27,13 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/statics/images/`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
