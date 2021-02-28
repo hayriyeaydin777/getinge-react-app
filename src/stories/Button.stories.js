@@ -34,3 +34,9 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+
+export const Cancel = Template.bind({});
+Cancel.args = {
+  primary: false,
+  label: 'Button',
+};
