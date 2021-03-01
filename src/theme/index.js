@@ -5,7 +5,7 @@ const customTheme = extendTheme({
         turkcell_blue_200: "#1753c9",
         backgroundGrey: "#f4f5f7",
         darkBlueGrey: "#18274a",
-        brandPurple: "#673FB4",
+        brandPurple: "#673FB2",
         brand: {
           100: "#f7fafc",
           // ...
