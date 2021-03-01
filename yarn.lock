@@ -1268,7 +1268,7 @@
     "@chakra-ui/hooks" "1.1.4"
     "@chakra-ui/utils" "1.2.0"
 
-"@chakra-ui/input@1.1.2":
+"@chakra-ui/input@1.1.2", "@chakra-ui/input@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@chakra-ui/input/-/input-1.1.2.tgz#8d1b1734870168802a4d4c679f9bf0fb7b4bc716"
   integrity sha512-ipT5RpkwVTTzadvOEXt62m9a7Q3vH0cZf1Dis3xdh2FBJjR1Xk0Nr+jjXxtTj99Rn6UMxsVyq3EsSnH09O8o5A==
@@ -14520,6 +14520,11 @@ react-hotkeys@2.0.0:
   integrity sha512-3n3OU8vLX/pfcJrR3xJ1zlww6KS1kEJt0Whxc4FiGV+MJrQ1mYSYI3qS/11d2MJDFm8IhOXMTFQirfu6AVOF6Q==
   dependencies:
     prop-types "^15.6.1"
+
+react-icons@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.2.0.tgz#6dda80c8a8f338ff96a1851424d63083282630d0"
+  integrity sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ==
 
 react-inspector@^5.0.1:
   version "5.1.0"
