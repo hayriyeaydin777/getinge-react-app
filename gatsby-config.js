@@ -33,7 +33,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/statics/images/`,
+        path: `${__dirname}/src/static/images/`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
